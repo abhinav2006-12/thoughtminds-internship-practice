@@ -5,8 +5,8 @@ import Reveal from "./Reveal.jsx";
 import ApertureMotif from "./ApertureMotif.jsx";
 
 const CONTACT_ITEMS = [
-  { icon: Mail, label: "Email", value: contact.email, href: `mailto:${contact.email}` },
-  { icon: Phone, label: "Phone", value: contact.phone, href: `tel:${contact.phone.replace(/\s/g, "")}` },
+  { icon: Phone, label: "Phone", value: "Call", href: `tel:${contact.phone.replace(/\s/g, "")}` },
+  { icon: Mail, label: "Email", value: "Gmail", href: `mailto:${contact.email}` },
   { icon: Linkedin, label: "LinkedIn", value: "View Profile", href: contact.linkedin },
   { icon: Github, label: "GitHub", value: "View Profile", href: contact.github },
 ];

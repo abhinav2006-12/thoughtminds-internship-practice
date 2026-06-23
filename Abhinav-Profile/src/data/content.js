@@ -1,11 +1,3 @@
-/**
- * ============================================================
- *  PORTFOLIO CONTENT — single source of truth
- *  Edit everything here. No need to touch component files
- *  to change text, links, projects, or skills.
- * ============================================================
- */
-
 export const profile = {
   fullName: "Abhinav P R",
   role: "Full Stack Developer & AI/ML Student",
